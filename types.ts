@@ -1,0 +1,1 @@
+export type ViewState = 'home' | 'addons' | 'tutorials' | 'about';
