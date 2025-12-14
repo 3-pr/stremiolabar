@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>StremioLabAR - الموقع العربي الأول لإضافات وشروحات Stremio</title>
+    <meta name="description" content="اكتشف أفضل إضافات Stremio العربية مع شروحات مفصلة. تحميل إضافة Torrentio وتعلم كيفية تثبيتها بسهولة. الموقع العربي المتخصص في تطبيق ستريميو." />
+    <meta name="keywords" content="Stremio, ستريميو, إضافات, Torrentio, شروحات, أفلام, مسلسلات, عربي, تحميل, مشاهدة" />
+    <meta name="author" content="StremioLabAR" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Arabic" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="StremioLabAR - الموقع العربي الأول لإضافات Stremio" />
+    <meta property="og:description" content="اكتشف أفضل إضافات Stremio العربية مع شروحات مفصلة لتحسين تجربة المشاهدة" />
+    <meta property="og:image" content="/images/logoS.jpg" />
+    <meta property="og:url" content="https://stremiolabar.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_SA" />
+    <meta property="og:site_name" content="StremioLabAR" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@stremiolabar" />
+    <meta name="twitter:title" content="StremioLabAR - الموقع العربي الأول لإضافات Stremio" />
+    <meta name="twitter:description" content="اكتشف أفضل إضافات Stremio العربية مع شروحات مفصلة" />
+    <meta name="twitter:image" content="/images/logoS.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/jpeg" href="/images/logoS.jpg" />
+    <link rel="apple-touch-icon" href="/images/logoS.jpg" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://stremiolabar.com" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#6C2BD9" />
+    <meta name="msapplication-TileColor" content="#6C2BD9" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Cairo', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                purple: '#6C2BD9',
+                dark: '#050505',
+                card: '#0F0F0F',
+                accent: '#8B5CF6'
+              }
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 3s ease-in-out infinite',
+              'fadeIn': 'fadeIn 0.5s ease-out forwards',
+              'glow': 'glow 3s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              glow: {
+                '0%, 100%': { boxShadow: '0 0 5px rgba(108, 43, 217, 0.2)' },
+                '50%': { boxShadow: '0 0 25px rgba(108, 43, 217, 0.6)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #000000;
+        color: #e5e5e5;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f0f0f; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #6C2BD9; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #8B5CF6; 
+      }
+    </style>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "StremioLabAR",
+      "alternateName": "مختبر ستريميو العربي",
+      "url": "https://stremiolabar.com",
+      "description": "الموقع العربي الأول المتخصص في إضافات وشروحات تطبيق Stremio",
+      "inLanguage": "ar",
+      "author": {
+        "@type": "Organization",
+        "name": "StremioLabAR",
+        "url": "https://stremiolabar.com",
+        "sameAs": [
+          "https://x.com/stremiolabar",
+          "https://t.me/StremioLabAR"
+        ]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://stremiolabar.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Torrentio",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Cross-platform",
+      "description": "إضافة Torrentio لتطبيق Stremio - أفضل إضافة لمشاهدة الأفلام والمسلسلات",
+      "url": "https://torrentio.strem.fun/configure",
+      "author": {
+        "@type": "Organization",
+        "name": "Torrentio"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+  
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
